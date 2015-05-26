@@ -1,3 +1,20 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 % ambiente controlado
 
 % Fecha todas as janelas

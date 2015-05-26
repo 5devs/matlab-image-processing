@@ -6,13 +6,15 @@ close all;
 % le a imagem
 feijao = imread('imgs/feijao.jpg');
 
-% transforma a imagem em tom de cina
+% transforma a imagem em tom de cinza
 feijao_a = rgb2gray(feijao);
 
-% figure, imhist(feijao_a)
+% histograma
+figure, imhist(feijao_a)
 
 % faz o Thresholding
 feijao_t = feijao_a < 110;
+
 
 figure, imhist(feijao_a);
 
